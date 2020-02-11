@@ -1,5 +1,5 @@
 ![Image](catra(UpRGB)(scale)(width%20800).png)
-Image by: IAHFY
+Art by: IAHFY
 
 ### **BIO**
 Hey, my name is Baylee Siegl. I am a 21 year old woman. I am an adopted child from Guatemala. I am told that I was the 7th kid my 
