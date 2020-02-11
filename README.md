@@ -1,5 +1,6 @@
 ## Welcome to Siegl834's GitHub Pages
 
+<img src"catra(UpRGB)(scale)(width%20800).png" width"200">
 ![](catra(UpRGB)(scale)(width%20800).png)
 
 You can use the [editor on GitHub](https://github.com/siegl834/siegl834.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
