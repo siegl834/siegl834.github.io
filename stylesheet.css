@@ -54,6 +54,11 @@ a:link {
 a:visited { 
 	color: #A6EDA6;
 }
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
 }
 
 			@media screen and (max-width: 800px) {
@@ -116,6 +121,11 @@ a:link {
 a:visited { 
 	color: #A6EDA6;
 }
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
 }
 
 			@media screen and (max-width: 480px) {
@@ -175,11 +185,10 @@ a:link {
 a:visited { 
 	color: #A6EDA6;
 }
-}
-
-
 .responsive {
 	width: 100%;
 	height: auto;
+}
+
 }
 
