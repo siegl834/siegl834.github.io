@@ -1,15 +1,173 @@
-.banner-home{
+			@media screen and (min-width: 801px) {
+
+.banner-home {
 	background-color: #A6EDA6; 
-	height: 160px;
+	height: 182px;
 	background-size: cover;
 	background-position: center;
-	padding-top: 10px;
+	padding-top: 7px;
+	min-width: 1000px;
+	max-width: 2000px;
 }
-h1{
-	margin-top: 0;
+.progress {
+	color: white;
+}
+body {
+	background-color: #515151;
+}
+h1 {
+	margin-top: 17.5px;;
 	font-style: italic;
 	text-align: center;
 	font-size: 4em;
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+.warpper {
+	width: 80%;
+	min-width: 800px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+p {
+	color: white;
+	font-size:19px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.columns {
+	-moz-column-count: 3;
+	-moz-column-gap: 1em;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 1em;
+}
+.list {
+	font-size:18px;
+}
+.list a:hover {
+	background-color: pink;
+	color: white;
+}
+a:link { 
+	color: #A6EDA6;
+}
+a:visited { 
+	color: #A6EDA6;
+}
+}
+
+			@media screen and (max-width: 800px) {
+
+.banner-home {
+	background-color: #A6EDA6;
+	height: 170px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 7px;
+	min-width: 400px;
+	max-width: 760px;
+}
+.progress {
+	color: white;
+}
+body {
+	background-color: #515151;
+}
+h1 {
+	margin-top: 17.5px;;
+	font-style: italic;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.warpper {
+	width: 80%;
+	min-width: 500px;
+	max-width: 760px;
+	margin: 0 auto;
+}
+p {
+	color: white;
+	font-size:19px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.columns {
+	-moz-column-count: 2;
+	-moz-column-gap: 1.5em;
+	-moz-column-rule: 1px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1.5em;
+	-webkit-column-rule: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.list {
+	font-size:18px;
+}
+.list a:hover {
+	background-color: pink;
+	color: white;
+}
+a:link { 
+	color: #A6EDA6;
+}
+a:visited { 
+	color: #A6EDA6;
+}
+}
+
+			@media screen and (max-width: 480px) {
+
+.banner-home {
+	background-color: #A6EDA6; 
+	height: 184px;
+	background-size: cover;
+	background-position: center;
+	padding-top: 5px;
+	min-width: 200px;
+	max-width: 400px;
+}
+.progress {
+	color: white;
+}
+body {
+	background-color: #515151;
+}
+h1 {
+	margin-top: 6px;
+	font-style: italic;
+	text-align: center;
+	font-size: 2.8em;
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+p {
+	color: white;
+	font-size:19px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.columns {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.list {
+	font-size:18px;
+}
+.list a:hover {
+	background-color: pink;
+	color: white;
+}
+a:link { 
+	color: #A6EDA6;
+}
+a:visited { 
+	color: #A6EDA6;
+}
+}
+
