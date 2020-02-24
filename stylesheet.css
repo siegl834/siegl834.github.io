@@ -89,7 +89,7 @@ h1 {
 }
 p {
 	color: white;
-	font-size:19px;
+	font-size:17px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -143,11 +143,17 @@ h1 {
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+.warpper {
+	width: 80%;
+	min-width: 200px;
+	max-width: 400px;
+	margin: 0 auto;
+}
 p {
 	color: white;
-	font-size:19px;
-	padding-left: 15px;
-	padding-right: 15px;
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .columns {
 	-moz-column-count: 1;
