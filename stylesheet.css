@@ -23,6 +23,10 @@ h1 {
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+h2 {
+	color: white;
+	padding-left: 30px;
+}
 .warpper {
 	width: 80%;
 	min-width: 800px;
@@ -32,8 +36,8 @@ h1 {
 p {
 	color: white;
 	font-size:19px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 12px;
+	padding-right: 18px;
 }
 .columns {
 	-moz-column-count: 3;
@@ -58,7 +62,6 @@ a:visited {
 	max-width: 100%;
 	height: auto;
 }
-
 }
 
 			@media screen and (max-width: 800px) {
@@ -85,6 +88,10 @@ h1 {
 	font-size: 3em;
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+h2 {
+	color: white;
+	padding-left: 30px;
 }
 .warpper {
 	width: 80%;
@@ -152,6 +159,10 @@ h1 {
 	font-size: 2.7em;
 	color: white;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+h2 {
+	color: white;
+	padding-left: 30px;
 }
 .warpper {
 	width: 80%;
