@@ -1,1 +1,15 @@
-gg
+/* Mobile first queries */
+/* applies to ALL widths */
+
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+
+
+/* Larger than tablet */
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+
+}
