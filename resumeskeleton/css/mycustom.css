@@ -1,15 +1,81 @@
 /* Mobile first queries */
 /* applies to ALL widths */
-
+body {
+	background-color: #B6B8B9;
+}
+nav {
+	padding-top: 14px;
+}
+nav:hover {
+	color: black;
+}
+.header{
+	background-color: gray;
+}
+.myname{
+	color: #30C79D;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.button {
+	color: CornflowerBlue;
+	background-color: rgba(255, 255, 255,.9)
+}
+.button:hover {
+	color: white;
+	background-color: rgba(255, 255, 255,.4)
+}
+.info {
+	color: #30C79D;
+	padding-left: 10px;
+}
+.introtext p{
+	padding-top: 11px;
+}
+h3 {
+	background-color: #30C79D;
+}
+h6 {
+	background-color: white;
+	padding-left: 43px;
+}
 
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
 @media (min-width: 550px) {
+.introtext p{
+	padding-top: 15px;
+}
+h6 {
+	background-color: white;
+	padding-left: 98px;
+}
 
+}
 
 /* Larger than tablet */
 
 /* applies to all widths 750px and greater */
 @media (min-width: 750px) {
+.introtext p{
+	padding-top: 18px;
+}
+h6 {
+	background-color: white;
+	padding-left: 188px;
+}
 
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+.introtext p{
+	padding-top: 18px;
+}
+h6 {
+	background-color: white;
+	padding-left: 355px;
+}
 }
