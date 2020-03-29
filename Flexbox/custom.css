@@ -1,0 +1,45 @@
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+img {
+	max-width: 100%;
+  	height: auto;
+}
+.warpper {
+	width: 80%;
+	min-width: 120px;
+	max-width: 410px;
+	margin: 0 auto;
+}
+.contaner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+
+
+}
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+
+
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+//.warpper {
+	//width: 90%;
+	//min-width: 900px;
+	//max-width: 2000px;
+	//margin: 0 auto;
+//}
+
+}
