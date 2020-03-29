@@ -16,8 +16,15 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	order: 2;
 }
-
+.textcontaner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	order: 1;
+}
 
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
