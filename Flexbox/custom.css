@@ -1,10 +1,5 @@
-.responsive {
-	max-width: 100%;
-	height: auto;
-}
-img {
-	max-width: 100%;
-  	height: auto;
+body {
+	background-color: #ccc;
 }
 .warpper {
 	width: 80%;
@@ -12,19 +7,17 @@ img {
 	max-width: 415px;
 	margin: 0 auto;
 }
-.contaner {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	order: 2;
+img {
+	max-width: 100%;
+  	height: auto;
 }
-.textcontaner {
+footer {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
 	align-items: center;
-	order: 1;
+	justify-content: space-evenly;
+	font-style: italic;
 }
+
 
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
