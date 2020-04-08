@@ -1,11 +1,34 @@
 body {
 	background-color: #ccc;
 }
+.homeclick {
+	font-size: 21px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: pink;
+}
+a:link { 
+	color: black;
+}
+a:visited { 
+	color: black;
+}
+nav a:hover {
+	background-color: pink;
+	color: white;
+}
+h1 {
+	text-align: center;
+	background-color: pink;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 .warpper {
 	width: 80%;
 	min-width: 130px;
 	max-width: 415px;
 	margin: 0 auto;
+	display: flex;
 }
 img {
 	max-width: 100%;
@@ -16,30 +39,160 @@ footer {
 	align-items: center;
 	justify-content: space-evenly;
 	font-style: italic;
+	padding-left: 28px;
+	background-color: pink;
 }
+
 
 
 /* Larger than phablet */
 /* applies to all widths 550px and greater */
 @media (min-width: 550px) {
 
+.homeclick {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.warpper {
+	width: 80%;
+	min-width: 520px;
+	max-width: 950px;
+	margin: 0 auto;
+	display: flex;
+}
+
+/* only the imges in the container flex at this screen size */
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.one {
+	order: 4;
+}
+.pinkone {
+	order: 1;
+}
+.three {
+	order: 2;
+}
+.pinktwo {
+	order: 3;
+}
+
+img {
+	padding-bottom: 8px;
+}
+.textcontainer {
+	display: flex;
+	flex-direction: column;
+}
+footer {
+	padding-left: 16px;
+}
 
 }
+
+
+
+
 
 /* applies to all widths 750px and greater */
 @media (min-width: 750px) {
 
+.warpper {
+	width: 80%;
+	min-width: 650px;
+	max-width: 950px;
+	margin: 0 auto;
+	display: flex;
+}
+
+/* only the imges in the container flex at this screen size */
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.one {
+	order: 3;
+}
+.pinkone {
+	order: 4;
+}
+.three {
+	order: 1;
+}
+.pinktwo {
+	order: 2;
+}
 
 }
 
 /* Larger than desktop */
 /* applies to all widths 100px and greater */
 @media (min-width: 1000px) {
-//.warpper {
-	//width: 90%;
-	//min-width: 900px;
-	//max-width: 2000px;
-	//margin: 0 auto;
-//}
+.warpper {
+	width: 90%;
+	min-width: 800px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	order: 3;
+}
+
+.one {
+	order: 4;
+}
+.pinkone {
+	order: 3;
+}
+.three {
+	order: 2;
+}
+.pinktwo {
+	order: 1;
+}
+.textcontainer {
+	order: 2;
+}
+
+/* not only does the conainer images chnage order but now
+   so does the page layout. everthing changes but the nav still 
+   stays at the top. */
+
+.layout {
+	display: flex;
+	flex-direction: column;
+}
+nav { order: 1; }
+header { order: 5; }
+aside { order: 6; 
+	width: 90%;
+	min-width: 800px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.container { order: 4; }
+main { order: 2; }
+footer { order: 3; }
+
+.rightside {
+	display: flex;
+	flex-direction: row;
+}
+.textplacing {
+	padding-left: 20px;
+}
 
 }
